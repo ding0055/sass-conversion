@@ -1,1 +1,5 @@
 // main SASS file
+@import "variables", "mixins", "queries";
+html{
+    color: $color-lightblue;
+}
