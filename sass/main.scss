@@ -178,39 +178,39 @@ header{
         }
     }
 }
-section {
- .focal{
-    width: 400px; /* default */
-    margin: 0 auto;
-    @include minlayout{
-           width: 700px; 
-           margin: 0 auto;  
+
+.focal{
+        width: 400px; /* default */
+        margin: 0 auto;
+        @include minlayout{
+              width: 700px; 
+              margin: 0 auto;  
         } 
-     @include midlayout{
-           width: 900px; 
-           margin: 0 auto;  
+        @include midlayout{
+              width: 900px; 
+              margin: 0 auto;  
         } 
-      @include maxlayout{
-            width: 1400px; 
-            margin: 0 auto;  
+        @include maxlayout{
+              width: 1400px; 
+              margin: 0 auto;  
         } 
- }
- .content1{
-    padding: 2rem 0;
-    @include minlayout{
-           width: 700px; 
-           margin: 0 auto;  
+}
+.content1{
+        padding: 2rem 0;
+        @include minlayout{
+               width: 700px; 
+               margin: 0 auto;  
         } 
-      @include midlayout{
-           width: 900px; 
-           margin: 0 auto;  
+        @include midlayout{
+              width: 900px; 
+              margin: 0 auto;  
         } 
-      @include maxlayout{
-            width: 1400px; 
-            margin: 0 auto;  
+        @include maxlayout{
+              width: 1400px; 
+              margin: 0 auto;  
         } 
- }
- .content2{
+     }
+.content2{
     padding:2rem 0;
     @include minlayout{
            width: 700px; 
@@ -224,10 +224,10 @@ section {
             width: 1400px; 
             margin: 0 auto;  
         } 
- }
-}
+   }
+
 .row{
-   @content.clearfix;
+   clear: both;
 }
 .col-3{
        @include midlayout{

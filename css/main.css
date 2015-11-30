@@ -159,48 +159,50 @@ header {
         float: left;
         background-color: #fff; } }
 
-section .focal {
+.focal {
   width: 400px;
   /* default */
   margin: 0 auto; }
   @media all and (min-width: 701px) and (max-width: 900px) {
-    section .focal {
+    .focal {
       width: 700px;
       margin: 0 auto; } }
   @media all and (min-width: 901px) and (max-width: 1400px) {
-    section .focal {
+    .focal {
       width: 900px;
       margin: 0 auto; } }
   @media all and (min-width: 1400px) {
-    section .focal {
+    .focal {
       width: 1400px;
       margin: 0 auto; } }
-section .content1 {
+
+.content1 {
   padding: 2rem 0; }
   @media all and (min-width: 701px) and (max-width: 900px) {
-    section .content1 {
+    .content1 {
       width: 700px;
       margin: 0 auto; } }
   @media all and (min-width: 901px) and (max-width: 1400px) {
-    section .content1 {
+    .content1 {
       width: 900px;
       margin: 0 auto; } }
   @media all and (min-width: 1400px) {
-    section .content1 {
+    .content1 {
       width: 1400px;
       margin: 0 auto; } }
-section .content2 {
+
+.content2 {
   padding: 2rem 0; }
   @media all and (min-width: 701px) and (max-width: 900px) {
-    section .content2 {
+    .content2 {
       width: 700px;
       margin: 0 auto; } }
   @media all and (min-width: 901px) and (max-width: 1400px) {
-    section .content2 {
+    .content2 {
       width: 900px;
       margin: 0 auto; } }
   @media all and (min-width: 1400px) {
-    section .content2 {
+    .content2 {
       width: 1400px;
       margin: 0 auto; } }
 
