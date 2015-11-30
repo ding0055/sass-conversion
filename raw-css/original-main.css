@@ -345,11 +345,11 @@ footer h4[lang=ru]{
     }
     header h1{
         width: 100%;
-        color: #3a5E63;
+        color: $color-darkblue;
     }
     header h1 i.fa-lg{
         display:inline;
-        color: #3a5E63;
+        color: $color-darkblue;
         vertical-align:baseline;
         float:none;
         font-size: 4rem;
@@ -373,17 +373,17 @@ footer h4[lang=ru]{
     header nav>ul>li{
         width:20%;
         float: left;
-        background-color: #fff;
+        background-color: $color-white;
     }
     header nav>ul>li>a{
         font-size: 1rem;
         line-height: 2rem;
         min-height: 2rem;
         border:none;
-        border-left:1px solid #d4d4d4; 
+        border-left:1px solid $color-lightgrey; 
         padding: 0 1.0rem;
         margin: 1.0rem 0;
-        background-color: #fff;
+        background-color: $color-white;
     }
     header nav>ul>li:first-child a{
         border-left:none;
@@ -439,7 +439,7 @@ footer h4[lang=ru]{
         font-weight: 400;
     }
     footer .fa-circle{
-        color: #C9A689;
+        color: $color-lightbrown;
     }
     footer h4[lang=ru]{
        display:block; 
@@ -463,11 +463,11 @@ footer h4[lang=ru]{
     }
     header h1{
         width: 100%;
-        color: #7C593C;
+        color: $color-darkbrown;
     }
     header h1 i.fa-lg{
         display:inline;
-        color: #7C593C;
+        color: $color-darkbrown;
         vertical-align:baseline;
         float:none;
         font-size: 4rem;
@@ -491,17 +491,17 @@ footer h4[lang=ru]{
     header nav>ul>li{
         width:20%;
         float: left;
-        background-color: #fff;
+        background-color: $color-white;
     }
     header nav>ul>li>a{
         font-size: 1.414rem;
         line-height: 2rem;
         min-height: 2rem;
         border:none;
-        border-left:1px solid #d4d4d4; 
+        border-left:1px solid $color-lightgrey; 
         padding:0 1.0rem;
         margin:1.0rem 0;
-        background-color: #fff;
+        background-color: $color-white;
     }
     header nav>ul>li:first-child a{
         border-left:none;
@@ -563,10 +563,10 @@ footer h4[lang=ru]{
         letter-spacing: 0.2rem;
     }
     footer p:last-child{
-        color: #d4d4d4;
+        color: $color-lightgrey;
     }
     footer .fa-circle{
-        color: #89C0C9;
+        color: $color-medblue;
     }
     
     footer h4[lang=en]{

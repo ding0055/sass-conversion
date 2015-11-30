@@ -1,0 +1,22 @@
+@mixin minlayout(){
+    @media all and (min-width:701px) and (max-width:900px){
+        @content;
+    }
+}
+@mixin midlayout(){
+    @media all and (min-width:901px) and (max-width:1400px){
+        @content;
+    }
+}
+@mixin maxlayout(){
+    @media all and (min-width:1400px){
+        @content;
+    }
+}
+@mixin calculatewidth($num_of_cols, $spacing, $width){
+    width: ( $width - ( $spacing * ( $num_of_cols - 1 ) ) ) / $num_of_cols;
+    margin-left: $spacing;
+    &:first-child{
+        margin-left:  0;
+    }
+}
